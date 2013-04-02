@@ -1,12 +1,12 @@
 # Rspec::FourPhase
 
-TODO: Write a gem description
+An opinionated gem that makes you write better tests
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'rspec-four_phase'
+    gem 'rspec-four_phase', require: false
 
 And then execute:
 
@@ -18,7 +18,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Require the gem as the last line in your `spec_helper.rb`:
+
+    require 'rspec/four_phase'
 
 ## Contributing
 
