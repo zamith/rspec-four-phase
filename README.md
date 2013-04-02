@@ -6,7 +6,7 @@ An opinionated gem that makes you write better tests
 
 Add this line to your application's Gemfile:
 
-    gem 'rspec-four_phase', require: false
+    gem 'rspec-four-phase', require: false
 
 And then execute:
 
@@ -14,7 +14,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install rspec-four_phase
+    $ gem install rspec-four-phase
 
 ## Usage
 
