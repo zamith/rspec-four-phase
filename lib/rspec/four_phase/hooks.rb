@@ -32,7 +32,7 @@ module RSpec
       end
 
       def info_message(type)
-        Rspec::FourPhase.log.info "You should not use #{type} blocks. Use methods that you call explicitly, instead."
+        Rspec::FourPhase.log.info "You should not use #{type} blocks. Use methods that you call explicitly instead."
       end
     end
   end
